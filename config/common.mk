@@ -122,12 +122,12 @@ PRODUCT_PACKAGES += \
     AudioFX \
     CMSettingsProvider \
     CMUpdater \
+    Launcher3 \
     LineageSetupWizard \
     Eleven \
     ExactCalculator \
     LiveLockScreenService \
     LockClock \
-    Trebuchet \
     WallpaperPicker \
     WeatherProvider
 
@@ -215,6 +215,17 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
+
+# Additional m4st3rnet packages
+# F-Droid
+PRODUCT_PACKAGES += \
+   F-Droid
+
+# microG
+PRODUCT_PACKAGES += \
+   GmsCore \
+   GsfProxy \
+   FakeStore
 
 # These packages are excluded from user builds
 ifneq ($(TARGET_BUILD_VARIANT),user)
