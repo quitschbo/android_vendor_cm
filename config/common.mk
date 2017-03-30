@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
     AudioFX \
     CMSettingsProvider \
     CMUpdater \
+    CustomTiles \
     Launcher3 \
     LineageSetupWizard \
     Eleven \
